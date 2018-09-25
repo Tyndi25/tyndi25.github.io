@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Personal Developer Site</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on Personal Developer Site</description>
+    <meta name="generator" content="Hugo 0.48" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bone Wyrm</title>
+      <link>http://example.org/posts/bone-wyrm/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/bone-wyrm/</guid>
+      <description>Playground project consuming MTG API</description>
+    </item>
+    
+    <item>
+      <title>Create Boilerplate Project</title>
+      <link>http://example.org/posts/create-boilerplate-project/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/create-boilerplate-project/</guid>
+      <description>Generator that will create a base boilerplate project for various frameworks.</description>
+    </item>
+    
+    <item>
+      <title>Flareon</title>
+      <link>http://example.org/posts/flareon/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/flareon/</guid>
+      <description>API backend for Vaporeon project</description>
+    </item>
+    
+    <item>
+      <title>Project Hydra</title>
+      <link>http://example.org/posts/project-hydra/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/project-hydra/</guid>
+      <description>A salary cap tracking and planning application</description>
+    </item>
+    
+    <item>
+      <title>Vaporeon</title>
+      <link>http://example.org/posts/vaporeon/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/vaporeon/</guid>
+      <description>Playground project utilizing React-Native</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal Developer Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Personal Developer Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bone Wyrm</title>
+      <link>http://example.org/posts/bone-wyrm/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/bone-wyrm/</guid>
+      <description>bone-wyrm Playground project consuming MTG API</description>
+    </item>
+    
+    <item>
+      <title>Create Boilerplate Project</title>
+      <link>http://example.org/posts/create-boilerplate-project/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/create-boilerplate-project/</guid>
+      <description>create-boilerplate-project Generator that will create a base boilerplate project for various frameworks.
+No need to fork and clone boilerplate projects to keep up. This module will generate one for you based on many of the popular boilerplate projects.</description>
+    </item>
+    
+    <item>
+      <title>Flareon</title>
+      <link>http://example.org/posts/flareon/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/flareon/</guid>
+      <description>Flareon API backend for Vaporeon project</description>
+    </item>
+    
+    <item>
+      <title>Project Hydra</title>
+      <link>http://example.org/posts/project-hydra/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/project-hydra/</guid>
+      <description>project-hydra A salary cap tracking and planning application. Cross platform desktop and web application.</description>
+    </item>
+    
+    <item>
+      <title>Vaporeon</title>
+      <link>http://example.org/posts/vaporeon/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/vaporeon/</guid>
+      <description>Vaporeon Playground project utilizing React-Native</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/404/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/404/</guid>
+      <description> Error 404: Page Not Found It seems that the page that you&amp;rsquo;re trying to access doesn&amp;rsquo;t exist. :worried: If you&amp;rsquo;re sure that it exists, chances are it might have been moved to a new link! You may search for it on the home page. </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Who is Daniel Vincent? 
+I am a 28 year old geek, father, husband and amatuer hockey official who works as a software engineer during the week. I have been exposed to many different technologies during my short career in the software world. Technologies such as:
+ C++ C# MSSQL MySQL Java ASP.NET Visual C++ Javascript (And its many flavors)  React Meteor GraphQL  MongoDB DynamoDB Amazon Web Services  These are just a few of the technologies I have worked with over the years.</description>
+    </item>
+    
+  </channel>
+</rss>

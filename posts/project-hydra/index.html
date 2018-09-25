@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<title>
+	Project Hydra
+</title><style>
+body {
+	display: block;
+	--colorBG: "#40e0d0, #ff8c00, #ff0080";background: linear-gradient(to right, var(--colorBG)) !important;
+	
+}
+
+body, body.pushable {
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover !important;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="map[name:Daniel Vincent desc:]" />
+	<meta name="description" content="A salary cap tracking and planning application" />
+<meta name="generator" content="Hugo 0.48" />
+
+<link rel="shortcut icon" href="/img/defaultFav.ico">
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+body.pushable {
+	display: block;background: linear-gradient(to right, var(--colorBG)) !important;
+	 ;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/site.css">
+<link rel="stylesheet" type="text/css" href="/css/style.css"><link rel="stylesheet" type="text/css" href="/css/style.css"><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/UtkarshVerma/hugo-dream-plus/ae11561d/exampleSite/static/css/highlight.css">
+<script>
+	var colorBG =  true 
+	var enabledPost =  false 
+	var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
+</script>
+</head>
+<body><script>
+var prevBgIndex = 0;
+var bodyBgSwitchIndex = 0;var gradients = [
+	  [],
+	  ['#40e0d0', '#ff8c00', '#ff0080'], 
+	  ['#3e5151', '#decba4'], 
+	  ['#11998e', '#38ef7d'], 
+	  ['#108dc7', '#ef8e38'], 
+	  ['#fc5c7d', '#6a82fb'], 
+	  ['#fc466b', '#3f5efb'], 
+	  ['#c94b4b', '#4b134f'], 
+	  ['#23074d', '#cc5333'] 
+	]
+	document.body.style.setProperty('--colorBG', connect(gradients[getRandomInt(0, gradients.length)]))
+	function getRandomInt(min, max) {
+	  min = Math.ceil(min)
+	  max = Math.floor(max)
+	  var random
+	  while (1) {
+	    random = Math.floor(Math.random() * (max - min)) + min
+	    if (random !== prevBgIndex) {
+	      prevBgIndex = random
+	      break
+	    }
+	  }
+	  return random
+	}
+
+	function connect(arr) {
+	  var str = ''
+	  for (var i = 0; i < arr.length; i++) {
+	    if (i !== arr.length - 1) {
+	      str += arr[i] + ', '
+	    } else {
+	      str += arr[i]
+	    }
+	  }
+	  return str
+	}
+</script><div id="sidebar" class="ui sidebar inverted vertical menu">
+	<section id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
+		<img src="https://avatars2.githubusercontent.com/u/23483002?s=460&amp;v=4">
+</div>
+<h3 class="ui header">Daniel Vincent
+	<div class="sub header"></div>
+</h3>
+</section><section class="ui attached center aligned inverted segment sidebar-dream-tags">
+
+	<a class="ui label red " href="/tags/cli" title="cli">cli</a>
+
+	<a class="ui label olive " href="/tags/electron" title="electron">electron</a>
+
+	<a class="ui label purple " href="/tags/expo" title="expo">expo</a>
+
+	<a class="ui label teal " href="/tags/javascript" title="javascript">javascript</a>
+
+	<a class="ui label teal " href="/tags/material" title="material">material</a>
+
+	<a class="ui label pink " href="/tags/node.js" title="node.js">node.js</a>
+
+	<a class="ui label teal " href="/tags/react" title="react">react</a>
+
+	<a class="ui label orange " href="/tags/react-native" title="react-native">react-native</a>
+
+	<a class="ui label blue " href="/tags/redux" title="redux">redux</a>
+
+	<a class="ui label blue " href="/tags/server" title="server">server</a>
+
+</section>
+	<section class="ui attached inverted segment sidebar-dream-categories both flexbox">
+		<div class="ui inverted accordion">
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/projects">projects</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://example.org/posts/bone-wyrm/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Bone Wyrm</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/create-boilerplate-project/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Create Boilerplate Project</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/flareon/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Flareon</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/project-hydra/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Project Hydra</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/vaporeon/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Vaporeon</p>
+		</div>
+	</a>
+
+</div>
+
+</div>
+	</section>
+	
+	<section id="footer" class="ui bottom attached center aligned inverted segment">
+	<p>© 2018 Personal Developer Site</p>
+
+</section>
+</div>
+<div class="pusher">
+		<div class="flipper">
+			<div id="front" class="front">
+	
+	<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon flip-toggle" title="About Me"></i>
+	</div>
+<div class="item">
+			<a href="/">
+				<i class="inverted big link home icon" title="Home"></i>
+			</a>
+		</div>
+	<div class="item">
+			<a href="/posts">
+				<i class="inverted big link archive icon" title="Archive"></i>
+			</a>
+		</div>
+	
+	<div class="item">
+			<a href="/tags">
+				<i class="inverted big link tags icon" title="All Tags"></i>
+			</a>
+		</div>
+	<div class="item">
+			<a href="/categories">
+				<i class="inverted big link cubes icon" title="All Categories"></i>
+			</a>
+    	</div>
+	
+	<div class="ui container tablet computer only grid">
+		<div class="item" onClick="$('.ui.sidebar').sidebar('setting', 'transition', 'overlay').sidebar('toggle');">
+			<i class="inverted big link sidebar icon" title="Show Sidebar"></i>
+		</div>
+	</div>
+	
+
+	
+	<div class="item right">
+		<a href="/posts/index.xml">
+			<i class="inverted big link rss icon" title="RSS Feed"></i>
+		</a>
+	</div>
+	
+</nav>
+
+
+<div class="ui centered grid">
+	<div class="sixteen wide mobile only column"><div class="ui inverted accordion header-sticky">
+	<div id="header" class="ui inverted segment column box">
+		<header id="author" class="ui top attached center aligned inverted segment"><div class="ui small circular image">
+		<img src="https://avatars2.githubusercontent.com/u/23483002?s=460&amp;v=4">
+</div>
+<h3 class="ui header">Daniel Vincent
+	<div class="sub header"></div>
+</h3>
+</header>
+		<div class=" title header-title"><div id="tag-category-pop" class="ui red right corner label">
+        
+        <i class="fas fa-angle-up fa-2x active" title="Click this to pop tags and categories"></i>
+			</div></div>
+		<div id="tag-category" class=" content"><section class="ui attached center aligned inverted segment dream-tags none flexbox">
+
+	<a class="ui label olive " href="/tags/cli" title="cli">cli</a>
+
+	<a class="ui label red " href="/tags/electron" title="electron">electron</a>
+
+	<a class="ui label brown " href="/tags/expo" title="expo">expo</a>
+
+	<a class="ui label olive " href="/tags/javascript" title="javascript">javascript</a>
+
+	<a class="ui label red " href="/tags/material" title="material">material</a>
+
+	<a class="ui label olive " href="/tags/node.js" title="node.js">node.js</a>
+
+	<a class="ui label pink " href="/tags/react" title="react">react</a>
+
+	<a class="ui label teal " href="/tags/react-native" title="react-native">react-native</a>
+
+	<a class="ui label olive " href="/tags/redux" title="redux">redux</a>
+
+	<a class="ui label purple " href="/tags/server" title="server">server</a>
+
+</section><section class="ui attached inverted segment dream-categories both flexbox">
+				<div class="inverted accordion">
+<div class="title">
+	<i class="dropdown icon"></i>
+	<a class="link" href="/categories/projects">projects</a>
+</div>
+<div class="content">
+
+	<a class="item" href="http://example.org/posts/bone-wyrm/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Bone Wyrm</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/create-boilerplate-project/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Create Boilerplate Project</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/flareon/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Flareon</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/project-hydra/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Project Hydra</p>
+		</div>
+	</a>
+
+	<a class="item" href="http://example.org/posts/vaporeon/">
+		<div>
+			<i class="fas fa-code"></i>
+			<p>Vaporeon</p>
+		</div>
+	</a>
+
+</div>
+
+</div>
+			</section></div>
+		<footer class="ui bottom attached center aligned inverted segment">
+	<p>© 2018 Personal Developer Site</p>
+
+</footer>
+	</div>
+</div>
+</div>
+	<div class="sixteen wide mobile fifteen wide tablet twelve wide computer column post-list">
+		<section class="ui secondary top attached black segment post-head">
+			<h1 class="post-title">
+				Project Hydra
+			</h1>
+			<div class="sub header">
+					<div><span><i class="calendar outline icon"></i>Sep 24, 2018</span></div>
+					<div><span><i class="clock outline icon"></i>1 min read</span></div>
+					<div><span><i class="angle double up icon"></i>Last updated on Sep 24, 2018</span></div>
+			</div>
+			<hr>
+			<article class="post-content twemoji">
+				
+
+<h1 id="project-hydra">project-hydra&nbsp;<a class="anchor" href="#project-hydra"><i class="small linkify icon"></i></a> </h1>
+
+<p>A salary cap tracking and planning application. Cross platform desktop and web application.</p>
+
+			</article>
+		</section>
+		<section class="ui secondary attached segment dream-tags">
+
+	<a class="ui label orange " href="/tags/cli" title="cli">cli</a>
+
+	<a class="ui label violet " href="/tags/electron" title="electron">electron</a>
+
+	<a class="ui label yellow " href="/tags/expo" title="expo">expo</a>
+
+	<a class="ui label orange " href="/tags/javascript" title="javascript">javascript</a>
+
+	<a class="ui label orange " href="/tags/material" title="material">material</a>
+
+	<a class="ui label teal " href="/tags/node.js" title="node.js">node.js</a>
+
+	<a class="ui label olive " href="/tags/react" title="react">react</a>
+
+	<a class="ui label brown " href="/tags/react-native" title="react-native">react-native</a>
+
+	<a class="ui label brown " href="/tags/redux" title="redux">redux</a>
+
+	<a class="ui label teal " href="/tags/server" title="server">server</a>
+
+
+		</section>
+	</div>
+</div>
+
+			</div>
+			<div id="back" class="back">
+<nav class="ui top secondary menu bar">
+	<div class="item">
+		<i class="inverted big link bullseye icon flip-toggle" title="About Me"></i>
+	</div>
+
+	
+		
+	
+		
+	
+	
+	
+	
+	
+		
+		
+		<div class="item">
+			<a href="https://github.com/tyndi25" target="	_blank">
+				<i id="ico" class="inverted big link github icon" title="GitHub"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+		<div class="item">
+			<a href="mailto:dvincent25@gmail.com" target="	_blank">
+				<i id="ico" class="inverted big link mail icon" title="Email"></i>
+			</a>
+		</div>
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+		
+		
+	
+
+	
+	<div class="item right">
+		<a href="/posts/index.xml">
+			<i class="inverted big link rss icon" title="RSS Feed"></i>
+		</a>
+	</div>
+	
+</nav>
+
+<div class="ui centered grid about">
+	<div class="sixteen wide mobile fifteen wide tablet fifteen wide computer column about">
+		<section class="ui stacked segments">
+			<div class="ui inverted segment">
+				<article class="twemoji"><h1>Who is Daniel Vincent?</h1>
+
+<hr />
+
+<p><br></p>
+
+<p>I am a 28 year old geek, father, husband and amatuer hockey official who works as a software engineer during the week. I have been exposed to many different technologies during my short career in the software world. Technologies such as:</p>
+
+<ul>
+<li>C++</li>
+<li>C#</li>
+<li>MSSQL</li>
+<li>MySQL</li>
+<li>Java</li>
+<li>ASP.NET</li>
+<li>Visual C++</li>
+<li>Javascript (And its many flavors)
+
+<ol>
+<li>React</li>
+<li>Meteor</li>
+<li>GraphQL</li>
+</ol></li>
+<li>MongoDB</li>
+<li>DynamoDB</li>
+<li>Amazon Web Services</li>
+</ul>
+
+<p>These are just a few of the technologies I have worked with over the years. I have been working with Javascript/ReactJS and various AWS tools the most over the past two years. But I have been attempting to make time to learn and experiment with other similar and vastly different technologies while at home.</p>
+</article>
+			</div>
+		</section>
+	</div>
+</div>
+
+
+
+<section id="skills" class="purple text-light">
+  <h2 class="heading">Skills</h2>
+
+  
+
+  <div class="skill">
+    <span class="h6">CSS</span>
+    <div class="progress">
+      <div class="progress-bar bg-deep-purple" role="progressbar" style="width: 70%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+  
+
+  <div class="skill">
+    <span class="h6">Node.js</span>
+    <div class="progress">
+      <div class="progress-bar bg-deep-purple" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+  
+
+  <div class="skill">
+    <span class="h6">ReactJS</span>
+    <div class="progress">
+      <div class="progress-bar bg-deep-purple" role="progressbar" style="width: 75%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+  </div>
+  
+</section>
+
+
+
+
+<section id="experience" class="cyan">
+  <h2 class="heading">Experience</h2>
+  <div id="timeline" class="bs">
+    
+    <div class="timeline-item clearfix bs">
+      <div class="timeline-icon bs"></div>
+      
+      <div class="timeline-content right  bs">
+        <span class="date">May 2017 - Nov 2017</span>
+        <h6 class="h3 my-2">Uber</h6>
+        <p class="">Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. </p>
+      </div>
+    </div>
+    
+    <div class="timeline-item clearfix bs">
+      <div class="timeline-icon bs"></div>
+      
+      <div class="timeline-content bs">
+        <span class="date">Nov 2017 - Present</span>
+        <h6 class="h3 my-2">Google</h6>
+        <p class="">Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. </p>
+      </div>
+    </div>
+    
+  </div>
+</section>
+</div>
+		</div>
+	</div><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script><script src="https://twemoji.maxcdn.com/2/twemoji.min.js?2.6"></script>
+
+<script id="dsq-count-scr" src="//.disqus.com/count.js" async></script>
+
+
+<script>
+	(function () {
+	  console.log("Twemoji up and making stuff colourful!");
+	  for (var b = document.getElementsByClassName("twemoji"), a = 0; a < b.length; a++) {
+		twemoji.parse(b[a]);
+	  }
+	})();
+</script>
+
+</body>
+</html>
