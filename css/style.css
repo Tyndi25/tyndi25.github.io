@@ -192,3 +192,16 @@ section .heading {
   float: right;
   text-align: left;
 }
+
+.tool {
+  /* text-decoration:none; */
+  position:relative;
+}
+.tool span {
+  display:none;
+}
+.tool:hover span {
+  display:block;
+  position:fixed;
+  overflow:hidden;
+}

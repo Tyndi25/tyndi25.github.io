@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Material on Personal Developer Site</title>
-    <link>http://example.org/tags/material/</link>
+    <link>http://tyndi25.github.io/tags/material/</link>
     <description>Recent content in Material on Personal Developer Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/material/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tyndi25.github.io/tags/material/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Project Hydra</title>
-      <link>http://example.org/posts/project-hydra/</link>
+      <link>http://tyndi25.github.io/posts/project-hydra/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/project-hydra/</guid>
+      <guid>http://tyndi25.github.io/posts/project-hydra/</guid>
       <description>project-hydra A salary cap tracking and planning application. Cross platform desktop and web application.</description>
     </item>
     
     <item>
       <title>Vaporeon</title>
-      <link>http://example.org/posts/vaporeon/</link>
+      <link>http://tyndi25.github.io/posts/vaporeon/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/vaporeon/</guid>
+      <guid>http://tyndi25.github.io/posts/vaporeon/</guid>
       <description>Vaporeon Playground project utilizing React-Native</description>
     </item>
     

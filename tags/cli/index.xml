@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cli on Personal Developer Site</title>
-    <link>http://example.org/tags/cli/</link>
+    <link>http://tyndi25.github.io/tags/cli/</link>
     <description>Recent content in Cli on Personal Developer Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 24 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://tyndi25.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Create Boilerplate Project</title>
-      <link>http://example.org/posts/create-boilerplate-project/</link>
+      <link>http://tyndi25.github.io/posts/create-boilerplate-project/</link>
       <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/create-boilerplate-project/</guid>
+      <guid>http://tyndi25.github.io/posts/create-boilerplate-project/</guid>
       <description>create-boilerplate-project Generator that will create a base boilerplate project for various frameworks.
 No need to fork and clone boilerplate projects to keep up. This module will generate one for you based on many of the popular boilerplate projects.</description>
     </item>

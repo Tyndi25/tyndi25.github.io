@@ -3,123 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/bone-wyrm/</loc>
+    <loc>http://tyndi25.github.io/posts/bone-wyrm/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/create-boilerplate-project/</loc>
+    <loc>http://tyndi25.github.io/posts/create-boilerplate-project/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/flareon/</loc>
+    <loc>http://tyndi25.github.io/posts/flareon/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/project-hydra/</loc>
+    <loc>http://tyndi25.github.io/posts/project-hydra/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/vaporeon/</loc>
+    <loc>http://tyndi25.github.io/posts/vaporeon/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/404/</loc>
+    <loc>http://tyndi25.github.io/404/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>http://tyndi25.github.io/about/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>http://tyndi25.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/cli/</loc>
-    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/electron/</loc>
+    <loc>http://tyndi25.github.io/tags/cli/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/expo/</loc>
+    <loc>http://tyndi25.github.io/tags/electron/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/javascript/</loc>
+    <loc>http://tyndi25.github.io/tags/expo/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/material/</loc>
+    <loc>http://tyndi25.github.io/tags/javascript/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/node.js/</loc>
+    <loc>http://tyndi25.github.io/tags/material/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>http://tyndi25.github.io/tags/node.js/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>http://tyndi25.github.io/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/categories/projects/</loc>
+    <loc>http://tyndi25.github.io/posts/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/react/</loc>
+    <loc>http://tyndi25.github.io/categories/projects/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/react-native/</loc>
+    <loc>http://tyndi25.github.io/tags/react/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/redux/</loc>
+    <loc>http://tyndi25.github.io/tags/react-native/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/server/</loc>
+    <loc>http://tyndi25.github.io/tags/redux/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>http://tyndi25.github.io/tags/server/</loc>
+    <lastmod>2018-09-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://tyndi25.github.io/tags/</loc>
     <lastmod>2018-09-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
